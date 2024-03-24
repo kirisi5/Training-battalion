@@ -1,0 +1,6 @@
+﻿  doubleLists.c
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\doubleLists.c(20,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\doubleLists.c(156,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\doubleLists.c(166,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\doubleLists.c(172,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  第一次作业.vcxproj -> C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\x64\Debug\第一次作业.exe

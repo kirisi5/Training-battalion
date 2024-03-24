@@ -1,0 +1,22 @@
+﻿  doubleLists.c
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\doubleLists.c(20,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\doubleLists.c(156,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\doubleLists.c(166,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\doubleLists.c(172,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  findCentre.c
+  ifRing.c
+  main.c
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\main.c(18,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  rollBack.c
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\rollBack.c(39,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SchangeParity.c
+  singleLists.c
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\singleLists.c(28,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\singleLists.c(169,17): warning C4013: “rollBack”未定义；假设外部返回 int
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\singleLists.c(132,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\singleLists.c(142,17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\singleLists.c(148,17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\sources\rollBack.c(52): warning C4716: “rollBack”: 必须返回一个值
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/OPT:ICF”规范)
+  第一次作业.vcxproj -> C:\Users\kirisi5\Desktop\大组训练营\大组第一次作业\第一次作业\x64\Release\第一次作业.exe
