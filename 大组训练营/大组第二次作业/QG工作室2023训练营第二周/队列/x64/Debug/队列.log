@@ -1,0 +1,11 @@
+﻿  LQueue.c
+C:\Users\kirisi5\Desktop\大组训练营\大组第二次作业\QG工作室2023训练营第二周\队列\代码和头文件\lqueue\LQueue.c(89,31): warning C4028: 形参 1 与声明不同
+  main.c
+C:\Users\kirisi5\Desktop\大组训练营\大组第二次作业\QG工作室2023训练营第二周\队列\代码和头文件\lqueue\main.c(37,26): warning C4047: “函数”:“LQueue *”与“LQueue **”的间接级别不同
+C:\Users\kirisi5\Desktop\大组训练营\大组第二次作业\QG工作室2023训练营第二周\队列\代码和头文件\lqueue\main.c(37,24): warning C4024: “InitLQueue”: 形参和实参 1 的类型不同
+C:\Users\kirisi5\Desktop\大组训练营\大组第二次作业\QG工作室2023训练营第二周\队列\代码和头文件\lqueue\main.c(54,33): warning C4047: “函数”:“LQueue *”与“LQueue **”的间接级别不同
+C:\Users\kirisi5\Desktop\大组训练营\大组第二次作业\QG工作室2023训练营第二周\队列\代码和头文件\lqueue\main.c(54,31): warning C4024: “GetHeadLQueue”: 形参和实参 1 的类型不同
+C:\Users\kirisi5\Desktop\大组训练营\大组第二次作业\QG工作室2023训练营第二周\队列\代码和头文件\lqueue\main.c(12,15): warning C4101: “b”: 未引用的局部变量
+C:\Users\kirisi5\Desktop\大组训练营\大组第二次作业\QG工作室2023训练营第二周\队列\代码和头文件\lqueue\main.c(14,9): warning C4101: “ifcontinue”: 未引用的局部变量
+  正在生成代码...
+  队列.vcxproj -> C:\Users\kirisi5\Desktop\大组训练营\大组第二次作业\QG工作室2023训练营第二周\队列\x64\Debug\队列.exe
