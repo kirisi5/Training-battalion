@@ -1,0 +1,65 @@
+C51 COMPILER V9.60.0.0   MAIN                                                              01/19/2024 00:13:07 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\main
+                    -.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include "REG51.h"
+   2          
+   3          sbit button = P1^4;
+   4          sbit led = P2^0;
+   5          
+   6          unsigned int flag=0;
+   7          
+   8          void delay(unsigned int time){
+   9   1          unsigned int i, j;
+  10   1          for(i = 0; i < time; i++)
+  11   1              for(j = 0; j < 1275; j++);
+  12   1      }
+  13          
+  14          unsigned char debounce(){
+  15   1          if(button == 0){ 
+  16   2              delay(20);
+  17   2              if(button == 0){ 
+  18   3                  while(!button);
+  19   3                  delay(20);
+  20   3                  return 1;
+  21   3              }
+  22   2          }
+  23   1          return 0;
+  24   1      }
+  25          
+  26          void main(void){
+  27   1         
+  28   1          led = 1;
+  29   1          while(1){
+  30   2              if(debounce()){
+  31   3                  flag = !flag;
+  32   3              }
+  33   2            
+  34   2              if(flag){
+  35   3                  led = !led;
+  36   3                  delay(50);
+  37   3              } else {
+  38   3                  led = 1; 
+  39   3              }
+  40   2          }
+  41   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    107    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

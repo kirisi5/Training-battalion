@@ -1,0 +1,50 @@
+C51 COMPILER V9.60.0.0   MAIN                                                              01/18/2024 16:42:30 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\main
+                    -.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include "REG51.h"
+   2          
+   3          sbit button = P1^4;
+   4          sbit led = P2^0;
+   5          
+   6          
+   7          void delay(unsigned int time){
+   8   1          unsigned int i, j;
+   9   1          for(i = 0; i < time; i++)
+  10   1              for(j = 0; j < 1275; j++);
+  11   1      }
+  12          
+  13          void main(void){
+  14   1          button = 1;
+  15   1          led = 1;
+  16   1          while(1){
+  17   2              if(button == 0){ 
+  18   3                  delay(20);
+  19   3                  if(button == 0){ 
+  20   4                      led = !led;           
+  21   4                      while(button == 0); 
+  22   4                      delay(20);
+  23   4                  }
+  24   3              }
+  25   2          }
+  26   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     63    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
