@@ -1,0 +1,3 @@
+﻿  test3.c
+C:\Users\kirisi5\Desktop\大组训练营\大组第三次作业\代码\test3.c(14,11): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  第三次作业.vcxproj -> C:\Users\kirisi5\Desktop\大组训练营\大组第三次作业\x64\Debug\第三次作业.exe
